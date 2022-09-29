@@ -1,0 +1,47 @@
+/* Change the body of the webpage */
+body {
+    background-color: lightsteelblue;
+    color: white;
+}
+
+/* Call the container class and give general font settings */
+.container {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Align header text to the center of the browser */
+h1  {
+    text-align: center;
+}
+
+/* Call the x1 id and change its placement */
+#x1 {
+    padding: 50px;
+    margin: 50px;
+    border: 2px solid white;
+}
+
+/* Call the first id for the button and change the button style */
+#first {
+    background-color: black;
+    color: white;
+    font-family: Algerian;
+    border: none;
+}
+
+/* Call the x2 id and change its placement */
+#x2 {
+    padding: 50px;
+    margin: 50px;
+    border: 2px dashed black;
+}
+
+/* Call the second id for the button and change the button style */
+#second {
+    background-color: white;
+    color: black;
+    font-family: Algerian;
+    border: none;
+}

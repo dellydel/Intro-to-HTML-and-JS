@@ -1,0 +1,39 @@
+<!-- A HTML Document to show the answer for a Math function on JavaScript -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Link a stylesheet and a script file -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Assignment 1</title>
+        <link rel="stylesheet" href="francis.css" type="text/css" />
+        <script src="francis.js"></script>
+    </head>
+    <body>
+        <!-- Create a container class within the body tag with a header tag and two separate div "id" tags -->
+        <div class="container">
+
+            <h1>¦Assigment to Make a Math Function Using JavaScript¦</h1>
+
+            <!-- A div with an id of x1 -->
+            <div id="x1">
+                <p>A formula that adds the values of 'a' and 'b' and multiplies by 'c'</p>
+                <p>a = 3, b = 5, c = 7</p>
+                <form onclick="addMultiply(3, 5, 7);">
+                    <input id="first" type="button" value="Click to Answer!">
+                </form>
+            </div>
+
+            <!-- A div with an id of x2 -->
+            <div id="x2">
+                <p>A formula that adds the values of '-a' and '-b' and multiplies by '-c'</p>
+                <p>a = 3, b = 5, c = 7</p>
+                <form onclick="addMultiplyInverse(3, 5, 7);">
+                    <input id="second" type="button" value="Click to Answer!">
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>
