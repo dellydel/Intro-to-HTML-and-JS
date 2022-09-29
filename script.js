@@ -12,4 +12,7 @@ function displayMessage () {
         f_name: "Francis",
         l_name: "Nwaobodo"
     };
+
+    let clicks = 0;
+    clicks = 1;
 }
