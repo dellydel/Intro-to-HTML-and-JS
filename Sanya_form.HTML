@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width">
   <title>Intro to HTML and Javascript</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
 </head>
 <body>
    
-    <form>
+    <form onsubmit="displayMessage()" >
       <label>First Name:</label>
       <input 
             id="first_name" 
@@ -67,6 +68,10 @@
       <input type="submit" >
         
         </form>
+
+         <br/>
+
+        <input type="button" value="Click Me!" onclick="multiplyFunction(10)">
 </body>
 
 
