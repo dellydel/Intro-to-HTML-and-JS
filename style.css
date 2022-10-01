@@ -21,3 +21,14 @@ header {
 #content {
   padding:20px;
 }
+
+input{
+  background-color: blue;
+  color: white;
+  width: 80px;
+  height: 30px;
+  margin-left: 50px;
+  border: 1px solid white;
+  font-size: 18px;
+
+}
