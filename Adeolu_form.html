@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width">
   <title>Intro to HTML and Javascript</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
 </head>
 
 <body>
  
-    <form>
+    <form onsubmit="displayMessage"  >
 <b><label>First Name:</label>  </b>
 <input id="firstname" 
 placeholder="Put your name here" 
@@ -55,10 +56,10 @@ size="6">
 <br/>
  
 <input type="submit">
-    
 
+      </form>
 
-    </form>
+      <input type = "button" value = "Click Me!" onclick = "displayMessage()" >   
   
 </body>
 
