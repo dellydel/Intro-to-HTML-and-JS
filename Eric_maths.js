@@ -2,8 +2,7 @@
     // set 2 variables
     //let eric =20;
     //let agu =2;
-
-    console.log(eric/agu);
+  console.log(eric/agu);
     
 
     
