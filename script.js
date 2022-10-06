@@ -1,12 +1,7 @@
-function arithmeticFunction(numOne, numTwo) {
+function mathProblem(){
+    let num1 = 30;
+    let num2 = 40;
 
-    // Math assignment
-    //let numOne = 60;
-    //let numTwo = 40;
-
-    console.log(numOne * numTwo);
-    console.log(numOne - numTwo);
-    console.log(numOne / numTwo);
-    console.log(numOne % numTwo);
+    let average = (num1 + num2)/2
+    console.log(average);
 }
-        
