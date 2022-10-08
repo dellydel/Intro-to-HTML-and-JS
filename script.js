@@ -1,11 +1,7 @@
-//function to perform math calculation 
-function myFunction(){
-    let x = 20;
-    let y = 7;
-    console.log(x%y)
-}
-//Bonus function
-function myFunction1(num){
-    let secondNumber = 20
-    console.log(num%secondNumber)
+function mathProblem(){
+    let num1 = 30;
+    let num2 = 40;
+
+    let average = (num1 + num2)/2
+    console.log(average);
 }
