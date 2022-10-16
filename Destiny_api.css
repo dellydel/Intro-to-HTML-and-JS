@@ -1,0 +1,19 @@
+#numberofid {
+    font-family: papyrus;
+    color: turquoise;
+}
+#numberbox {
+    border-style: solid;
+    font-family: serif;
+}
+#header1 {
+    border-style: solid;
+    text-align: center;
+    background-color: tomato;
+    text-shadow: bisque;
+    padding-left: 10px;
+}
+#button {
+    color: black;
+    background-color: blue;
+}
