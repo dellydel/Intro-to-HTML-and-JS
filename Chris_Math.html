@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -17,13 +17,13 @@
   </header>   
   <form>
         <br/>
-         <label>Input 1</label>  <input id ="input1" type="text" placeholder="enter a  number" minlength="1" maxlength="5"/> <br/>
-         <label  >input 2</label>  <input id="input2" type="text" placeholder="another enter a  number"" minlength="1"  maxlength="5"/>  <br/><br/>
-         <label>+</label><input type="radio" id="add" name="mathRadios" value="+">
-         <label>-</label><input type="radio" id="minus" name="mathRadios" value="-">
-         <label>*</label><input type="radio" id="times" name="mathRadios" value="*">
-         <label>/</label><input type="radio" id="divide" name="mathRadios" value="/"></radio><br/>
-         <label  >Answer</label>  <input id="answer" type="text" />  <br/><br/>
+         <label>Input 1</label>  <input id ="input1" type="text" placeholder="enter a  number" minlength="1" maxlength="5" title="first value"/> <br/>
+         <label  >input 2</label>  <input id="input2" type="text" placeholder="another enter a  number" minlength="1" title="second value" maxlength="5"/>  <br/><br/>
+         <label>+</label><input type="radio" id="add" name="mathRadios" value="+" title="add"/>
+         <label>-</label><input type="radio" id="minus" name="mathRadios" value="-" title="minus"/>
+         <label>*</label><input type="radio" id="times" name="mathRadios" value="*" title="multiply" />
+         <label>/</label><input type="radio" id="divide" name="mathRadios" value="/" title="divide"></radio><br/>
+         <label  >Answer</label>  <input id="answer" type="text" title="answer"/>  <br/><br/>
         <input type="submit" onclick="executeOperation(  )">
 </form>
 </html>
