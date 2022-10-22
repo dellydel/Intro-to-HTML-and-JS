@@ -1,0 +1,38 @@
+#container{
+    background-color: rgb(229, 229, 240);
+    height: 600px;
+    width: auto;
+    color: rgb(56, 2, 2);
+    margin-top: -20px;
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(47, 10, 180);
+    color: white;
+    padding: 20px;
+    margin-top: -5px;
+}
+#button{
+    background-color: rgb(105, 4, 4);
+    color: white;
+    height: 30px;
+    width: 120px;
+    margin-left: 300px;
+    text-align: center;
+}
+#button:hover{
+    background-color: rgb(231, 96, 96);
+}
+#input_number{
+    height: 28px;
+    width: 400px;
+}
+#label_text{
+    font-size: 28px;
+    padding: 10px;
+}
