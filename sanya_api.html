@@ -6,14 +6,34 @@
   <meta name="viewport" content="width=device-width">
   <title>Data Fetching</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="data.js"></script>
+  <script src="sanya.js"></script>
 </head>
 
-<body style="margin : 100px">
-    
-<button style="background-color: #010e01; color: white"
-onClick="grabSomeData()">GRAB DATA</button>
+<body>
 
+    <header>
+      <h1>HTML and Javascript Application</h1>
+      <h2>API interaction with [ "https://jsonplaceholder.typicode.com/todos/" ]</h4>
+    </header>
+
+      <br/>
+
+      <div>
+      <label>Search main agenda by preference : </label>  
+        <input id = "inputAgenda"
+        type="number"  
+        placeholder="Enter a number" 
+        minlength="1" 
+        maxlength="5"/> 
+      </div>
+
+      <br>
+      <label>List of activities :</label> 
+      <br/> 
+
+      <br/>
+   <button style="background-color: #010e01; color: white"
+   onClick="grabPreferrdActivity()">Activity</button>
 </body>
 
 </html>
