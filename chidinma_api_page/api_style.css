@@ -20,12 +20,12 @@
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
+.output{
+    width: 25%;
+    height: 30px;
+}
     
 
 
 
 
-
-   /* max-width: 1140px;
-        margin: 0 auto;
-    }
