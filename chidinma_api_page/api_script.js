@@ -1,10 +1,24 @@
 function getData(){
     
-    let a = document.getElementById('input').value 
+    let a = parseInt(document.getElementById("input").value); 
 
-    fetch('https://jsonplaceholder.typicode.com/users/' + a)
+    let url = "https://jsonplaceholder.typicode.com/users/"+ a;
+    let defaultvalue = parseInt(document.getElementById("input").value);
+    fetch(url)
     .then(response => response.json())
-    .then(json => console.log(json))
-    .then(json => document.getElementById('answer').value = json )
+    
+    .then(
+        json =>
+        { document.getElementById('name').value = json.name;
+        document.getElementById('username').value = json.username;
+        document.getElementById('email').value = json.email;
+        document.getElementById('phone-number').value = json.phone;
+        document.getElementById('website').value = json.website;
+    
+    })
+         
+            
+        
+        
     
 }
