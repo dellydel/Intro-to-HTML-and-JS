@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Fetching API Getting JSON</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="data.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Fetching API Getting JSON </title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="data.js"></script>
-</head>
-<body>
-  <form  class="submission-form">
+  <body>
+    <form class="submission-form">
+      <label for="First Name">First Name</label>
+      <input type="text" id="First Name" />
+      <br /><br />
+      <label for="Last Name">Last Name</label>
+      <input type="text" id="Last Name" />
+      <br /><br />
+      <label for="Email">Email</label>
+      <input type="email" class="required" id="email" />
+      <br /><br />
+      <label for="phone">Telephone Number</label>
+      <input type="tel" id="phone" />
+      <br /><br />
+      <label for="gender"> Gender</label>
+      <input type="radio" name="gender" />Male
+      <input type="radio" name="gender" />Female <br /><br />
+      <label for="userid">userid</label>
+      <input
+        type="number"
+        min="1"
+        max="10"
+        value="1"
+        id="getuserid"
+        ondrop="return false;"
+        onpaste="return false"
+      />
+      <br /><br />
+      <input type="button" value="GRAB DATA" onclick="grabSomeData()" />
 
-    <label for="First Name">First Name</label>
-    <input type="text"  id="First Name">
-    <br><br>
-   <label for="Last Name">Last Name</label>
-    <input type="text"  id="Last Name">
-    <br><br>
-   <label for="Email">Email</label>
-    <input type="email" class="required" id="email">
-    <br><br>
-   <label for="phone">Telephone Number</label>
-    <input type="tel" id="phone">
-    <br><br>
-   <label for="gender"> Gender</label>
-  	<input type="radio" name="gender">Male
-    <input type="radio" name="gender">Female
-    <br><br>
- <label for="message">Message</label>
- <textarea  class="textarea" placeholder="Enter Message"></textarea><br><br> 
- <input type="button" value="GRABDATA"onclick="grabSomeData()" >
-   </form>
+      <br />
+      <p id="id_result"></p>
+    </form>
   </body>
 </html>
