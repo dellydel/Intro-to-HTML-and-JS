@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Data Fetching</title>
+    <link href="sanya_api.css" rel="stylesheet" type="text/css" />
+    <script src="sanya_api.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Data Fetching</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="sanya.js"></script>
-</head>
-
-<body>
-
+  <body>
     <header>
       <h1>HTML and Javascript Application</h1>
-      <h2>API interaction with [ "https://jsonplaceholder.typicode.com/todos/" ]</h4>
+      <h2>
+        API interaction with [ "https://jsonplaceholder.typicode.com/todos/" ]
+      </h2>
     </header>
 
-      <br/>
+    <br />
 
-      <div>
-      <label>Search main agenda by preference : </label>  
-        <input id = "inputAgenda"
-        type="number"  
-        placeholder="Enter a number" 
-        minlength="1" 
-        maxlength="5"/> 
-      </div>
+    <div>
+      <label>Search main agenda by preference : </label>
+      <input
+        id="inputAgenda"
+        type="number"
+        placeholder="Enter a number"
+        minlength="1"
+        maxlength="5"
+      />
+    </div>
 
-      <br>
-      <label>List of activities :</label> 
-      <br/> 
+    <br />
+    <label>List of activities :</label>
+    <br />
 
-      <br/>
-   <button style="background-color: #010e01; color: white"
-   onClick="grabPreferrdActivity()">Activity</button>
-</body>
+    <br />
 
+    <button
+      style="background-color: #010e01; color: white"
+      onClick="grabPreferrdActivity()"
+    >
+      Activity
+    </button>
+  </body>
 </html>
