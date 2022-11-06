@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+}
+.input{
+    width: 25%;
+    height: 30px;
+}
+.small-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.output{
+    width: 25%;
+    height: 30px;
+}
+    
+
+
+
+

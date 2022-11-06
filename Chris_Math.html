@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Intro to HTML and Javascript</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="chris_mathematics.js" ></script>   
+</head>
+<body>
+  <header>
+    <h1>Introduction To HTML and Javascript</h1>
+    <h4>Mathematical Computations</h4>
+    <h3>Please enter your first name and the two values you want to compute :</h3>
+     
+  </header>   
+  <form>
+        <br/>
+         <label>Input 1</label>  <input id ="input1" type="text" placeholder="enter a  number" minlength="1" maxlength="5" title="first value"/> <br/>
+         <label  >input 2</label>  <input id="input2" type="text" placeholder="another enter a  number" minlength="1" title="second value" maxlength="5"/>  <br/><br/>
+         <label>+</label><input type="radio" id="add" name="mathRadios" value="+" title="add"/>
+         <label>-</label><input type="radio" id="minus" name="mathRadios" value="-" title="minus"/>
+         <label>*</label><input type="radio" id="times" name="mathRadios" value="*" title="multiply" />
+         <label>/</label><input type="radio" id="divide" name="mathRadios" value="/" title="divide"></radio><br/>
+         <label  >Answer</label>  <input id="answer" type="text" title="answer"/>  <br/><br/>
+        <input type="submit" onclick="executeOperation(  )">
+</form>
+</html>

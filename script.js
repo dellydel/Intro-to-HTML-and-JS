@@ -16,3 +16,4 @@ function displayMessage () {
     let clicks = 0;
     clicks = 1;
 }
+>>>>>>> ed17cef997a7b15d4690b2b85e2aa7452168dd8c

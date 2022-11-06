@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Intro to HTML and Javascript</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="ChrisAPI_data.js" ></script>   
+  <style>
+    .todoList{
+     border: 30px inset lightgrey;
+     background-color: white;
+      text-align: left;
+      margin-left: 400px;
+      margin-right: 400px;
+    }
+     h1,h2 {
+        text-shadow: 2px 5px #669990;
+      }
+  </style>
+</head>
+<body>
+  <div class ="todoList">
+  <header>
+    <h1>Introduction To HTML and Javascript</h1>
+    <h2>API Communication wth [ "https://jsonplaceholder.typicode.com/todos/" ]</h4>
+    <p>If no input is supplied the system will traverse the whole list iteratively</p>
+  </header>   
+      <form aria-label="form" title=" form">
+        <br/>
+        <div> <label>Search Todo by ID :</label>  <input id ="inputId" type="text" placeholder="enter a number 1 to 200" minlength="1" maxlength="5"/> 
+          <input type="text"  aria-label="hiden" id="hidenNextValue" size="1" hidden="true" value="1" />
+        </div>
+        <div>
+         <label>Todo Title</label>  <input aria-label="id" type="text" id ="title" size="65" disabled/> 
+         <label>Completed ?</label> <input aria-label="statu" type="text" id="status" size="1" disabled/> 
+        </div>
+        <br/>
+        <div>
+          <input type="submit" value="SEARCH OR TRAVERSE" title="To Traverse - ID entry must be null" onclick="renderTodoById( )"/>
+        </div>
+  </form>
+<div>
+  <div><h2>TODO LIST</h2></div>
+    <hr>
+  <div class="container"></div>
+</div>
+</div>
+</html>
