@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+#output {
+    border: 2px solid white;
+    margin: 20px;
+    padding: 20px;
+}
