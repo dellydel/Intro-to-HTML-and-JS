@@ -1,6 +1,6 @@
 function siteInfo(){
-    let number = parseInt(document.getElementById('idNum').value);
-    fetch('https://jsonplaceholder.typicode.com/comments/' + number)
+    let urlDir = parseInt(document.getElementById('idNum').value);
+    fetch('https://jsonplaceholder.typicode.com/comments/' + urlDir)
     .then(response => response.json())
     .then(json => document.getElementById("output").innerHTML = JSON.stringify(
         "<i>Post ID: </i>" + json.postId +
