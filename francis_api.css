@@ -1,14 +1,32 @@
 body {
     background-color: lightblue;
+    border: 2px solid black;
+    font-family: Cascadia Code;
 }
 
-form {
-    margin-top: 50px;
-    margin-left: 25px;
-}
-
-#output {
-    border: 2px solid white;
+.container {
     margin: 20px;
-    padding: 20px;
+}
+
+#idNum {
+    font-size: 20px;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+}
+
+label {
+    color: white;
+    font-size: 25px;
+
+}
+
+.OP {
+    font-size: 20px;
+    background-color: #fff;
 }
